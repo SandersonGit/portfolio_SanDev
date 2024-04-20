@@ -22,21 +22,25 @@
         <div class="container">
 
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light mt-4">
+            <nav class="navbar navbar-expand-lg navbar-light  mt-4">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Meu Portfólio</a>
+                    <a class="navbar-brand" href="#">Sanderson Luiz</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     
                 </div>
                 <div class="collapse navbar-collapse" justify-content-end" id="navbarNav">
+                    
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#stack">Stacks</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#projetos">Projetos</a>
@@ -45,35 +49,94 @@
                             <a class="nav-link" href="#contatos">Contatos</a>
                         </li>
                     </ul>
+                    
                 </div>
+                
             </nav>
         </div>
     </header>
     
     <main class="main">
-        <div class="container" id="sobre">
-
+        <div class="container"  >
             <div class="row">
-                <div class="col-md-6 mt-5 d-flex flex-column justify-content-end">
+                <div class="col-md-6 mt-md-0 mt-5 d-flex flex-column justify-content-center" id="home">
                     <h1 id="helloText">Olá,</h1>
                     <p id="typing"></p>
-                    
-                    <p>Aqui você encontrará projetos em que trabalhei, habilidades que possuo e um pouco sobre minha jornada como desenvolvedor.</p>
+                    <p class="text-center">Aqui você encontrará projetos em que trabalhei, habilidades que possuo e um pouco sobre minha jornada como desenvolvedor.</p>
                 </div>
-                <div class="col-md-6 d-flex flex-column align-items-center mt-4">
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
                     <img src="assets/43740021_1088868571279600_6541480108023087104_n.jpg" alt="Profile Picture" class="profile-pic mb-3">
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
                     <div class="social-icons mt-5">
-                        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" id="social-img"><i class="social-img fab fa-linkedin fa-2x"></i></a>
-                        <a href="https://github.com/yourusername" target="_blank" id="social-img"><i class="social-img  fab fa-github fa-2x"></i></a>
-                        <a href="https://wa.me/yourwhatsappnumber" target="_blank" id="social-img"><i class="social-img fab fa-whatsapp fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin fa-4x"></i></a>
+                        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github fa-4x"></i></a>
+                        <a href="https://wa.me/yourwhatsappnumber" target="_blank"><i class="fab fa-whatsapp fa-4x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="container my-5 " id="sobre">
+            <div class="row">
+                <div class="col-md-8 mx-auto mt-5 mb-5 text-center">
+                    <h2 class="text-center mb-4">Sobre Mim</h2>
+                    <p>Hey, eu sou o Sanderson Luiz Celestino, mas pode me chamar de Sander! Tenho 36 anos, sou do Rio de Janeiro, terra do samba, do sol e das praias maravilhosas.</p>
+                    <p>Além de desenvolver páginas web responsivas que são minha paixão, sou completamente maluco por viagens. Acho que não há nada melhor do que explorar novos lugares, culturas e sabores ao redor do mundo. </p>
+                    <p>Quando não estou codificando ou planejando minha próxima aventura, você me encontra gritando pelo Flamengo em cada jogo, sou flamenguista roxo, daqueles que vibra até com escanteio bem batido!</p>
+                    <p>E claro, a tecnologia corre nas minhas veias! Sempre antenado nas últimas tendências e novidades do mundo da programação e da tecnologia em geral.</p>
+                    <p>Ah, e não posso esquecer de mencionar minha família! Sou casado e tenho dois filhos incríveis que são minha fonte de inspiração diária.</p>
+                    <p>No momento, estou mergulhado no desenvolvimento de páginas web, sempre buscando agregar valor aos projetos que entrego. Gosto de pensar que cada linha de código que escrevo contribui para tornar a experiência online das pessoas um pouco melhor.</p>
+                    <p>E esse sou eu, um apaixonado por tecnologia, viagens, Flamengo e família, sempre em busca de novos desafios e aprendizados!</p>
+                </div>
+            </div>
+        </section>
+        
+        <div class="container my-5"  >
+            <h2 class="text-center mb-5 " id="stack">Principais Stacks</h2>
+            <div class="row justify-content-space-between align-items-center">
+                <div class="col-4 text-center">
+                    <div class="stack" style="animation-delay: 1.0s;">
+                        <i class="fab fa-html5 fa-4x"></i>
+                        <p>HTML5</p>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="stack" style="animation-delay: 1.5s;">
+                        <i class="fab fa-css3-alt fa-4x"></i>
+                        <p>CSS3</p>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="stack" style="animation-delay: 2.0s;">
+                        <i class="fab fa-js fa-4x"></i>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="stack" style="animation-delay: 2.5s;">
+                        <i class="fab fa-bootstrap fa-4x"></i>
+                        <p>Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="stack" style="animation-delay: 3.0s;">
+                        <i class="fab fa-react fa-4x"></i>
+                        <p>React</p>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="stack" style="animation-delay: 3.5s;">
+                        <i class="fab fa-node-js fa-4x"></i>
+                        <p>Node.js</p>
                     </div>
                 </div>
             </div>
         </div>
         
-        <div class="container my-5">
+        <div class="container my-5 ">
             <h2 class="text-center mb-5 title" id="projetos">PROJETOS</h2>
-            <div class="row justify-content-center gx-4">
+            <div class="row justify-content-center gx-4 ">
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
                         <img src="assets/image.jpeg" class="card-img-top" alt="Projeto 1">
@@ -156,47 +219,7 @@
             </div>
         </div>
 
-        <div class="container my-5">
-            <h2 class="text-center mb-5">Principais Stacks</h2>
-            <div class="row justify-content-space-between align-items-center">
-                <div class="col-4 text-center">
-                    <div class="stack" style="animation-delay: 0.5s;">
-                        <i class="fab fa-html5 fa-4x"></i>
-                        <p>HTML5</p>
-                    </div>
-                </div>
-                <div class="col-4 text-center">
-                    <div class="stack" style="animation-delay: 1s;">
-                        <i class="fab fa-css3-alt fa-4x"></i>
-                        <p>CSS3</p>
-                    </div>
-                </div>
-                <div class="col-4 text-center">
-                    <div class="stack" style="animation-delay: 1.5s;">
-                        <i class="fab fa-js fa-4x"></i>
-                        <p>JavaScript</p>
-                    </div>
-                </div>
-                <div class="col-4 text-center">
-                    <div class="stack" style="animation-delay: 2s;">
-                        <i class="fab fa-bootstrap fa-4x"></i>
-                        <p>Bootstrap</p>
-                    </div>
-                </div>
-                <div class="col-4 text-center">
-                    <div class="stack" style="animation-delay: 2.5s;">
-                        <i class="fab fa-react fa-4x"></i>
-                        <p>React</p>
-                    </div>
-                </div>
-                <div class="col-4 text-center">
-                    <div class="stack" style="animation-delay: 3s;">
-                        <i class="fab fa-node-js fa-4x"></i>
-                        <p>Node.js</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </main>
 
 
@@ -221,7 +244,7 @@
                     </form>
                 </div>
                 <div class="col-md-6 copy">
-                    <p>Este é o meu portfólio pessoal de Sanderson Luiz Celestino. Todos os direitos reservados para fins comerciais.</p>
+                    <p>Este é o meu portfólio pessoal. Todos os direitos reservados para fins comerciais.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-github fa-3x"></i></a>
                         <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>

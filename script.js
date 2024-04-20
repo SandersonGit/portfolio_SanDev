@@ -1,7 +1,16 @@
 
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('.header');
+    if (window.scrollY > 0) {
+        header.style.backgroundColor = 'rgba(255, 255, 255, 0.8)'; // Torna o header mais transparente ao rolar para baixo
+    } else {
+        header.style.backgroundColor = 'rgba(255, 255, 255, 1)'; // Restaura a opacidade total quando o scroll é no topo
+    }
+});
+
 let i = 0;
-const txt = 'Sou SANDERSON, um desenvolvedor apaixonado por criar soluções inovadoras.';
-const speed = 20;
+const txt = 'Vamos trabalhar juntos?';
+const speed = 100;
 
 function typeWriter() {
     if (i < txt.length) {
